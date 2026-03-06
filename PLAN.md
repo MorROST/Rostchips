@@ -57,7 +57,7 @@ Build a mobile-first PWA (like "Deglaze") that lets users save recipes from soci
 ### 1.5 Environment variables (`.env.local`)
 ```
 AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
-DYNAMODB_TABLE_NAME=Rostcipes
+DYNAMODB_TABLE_NAME=Rostchips_dynamoDB_table
 NEXT_PUBLIC_COGNITO_USER_POOL_ID, NEXT_PUBLIC_COGNITO_CLIENT_ID
 ANTHROPIC_API_KEY
 RAPIDAPI_KEY
@@ -166,7 +166,7 @@ User pastes URL
 ## Phase 4: Database + Full CRUD (~Day 4)
 
 ### 4.1 DynamoDB setup
-- **User needs to create** table `Rostcipes` in AWS Console
+- **User needs to create** table `Rostchips_dynamoDB_table` in AWS Console
 - Partition key: `PK` (String), Sort key: `SK` (String)
 - GSI1: partition key `GSI1PK`, sort key `GSI1SK` — for querying user's recipes sorted by date
 - On-demand billing mode
@@ -235,7 +235,7 @@ extractionStatus, createdAt, updatedAt
 ## Project Structure
 
 ```
-rostcipes/
+rostchips/
 ├── public/
 │   ├── icons/                    # PWA icons (192x192, 512x512)
 │   ├── manifest.json
@@ -312,7 +312,7 @@ rostcipes/
 ## AWS Resources to Create (Manual Steps)
 
 1. **Cognito User Pool** — email sign-up, app client with no secret, email verification enabled
-2. **DynamoDB Table** `Rostcipes` — PK (String) + SK (String), GSI1 (GSI1PK + GSI1SK), on-demand billing
+2. **DynamoDB Table** `Rostchips_dynamoDB_table` — PK (String) + SK (String), GSI1 (GSI1PK + GSI1SK), on-demand billing
 
 ---
 

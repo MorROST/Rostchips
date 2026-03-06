@@ -1,10 +1,10 @@
 #!/bin/bash
-# Deploy Rostcipes on Ubuntu EC2
+# Deploy Rostchips on Ubuntu EC2
 # Run this script on the EC2 instance
 
 set -e
 
-echo "=== Rostcipes Deploy Script ==="
+echo "=== Rostchips Deploy Script ==="
 
 # 1. Install Docker if not present
 if ! command -v docker &> /dev/null; then
@@ -23,14 +23,14 @@ if ! command -v docker &> /dev/null; then
 fi
 
 # 2. Clone or pull repo
-APP_DIR=~/rostcipes
+APP_DIR=~/rostchips
 if [ -d "$APP_DIR" ]; then
     echo "Pulling latest code..."
     cd "$APP_DIR"
     git pull origin main
 else
     echo "Cloning repo..."
-    git clone https://github.com/MorROST/Rostcipes.git "$APP_DIR"
+    git clone https://github.com/MorROST/Rostchips.git "$APP_DIR"
     cd "$APP_DIR"
 fi
 

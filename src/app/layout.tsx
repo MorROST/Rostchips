@@ -15,13 +15,13 @@ const heebo = Heebo({
 });
 
 export const metadata: Metadata = {
-  title: 'Rostcipes',
+  title: 'Rostchips',
   description: 'Save recipes from social media videos',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Rostcipes',
+    title: 'Rostchips',
   },
 };
 

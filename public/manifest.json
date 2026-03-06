@@ -1,6 +1,6 @@
 {
-  "name": "Rostcipes",
-  "short_name": "Rostcipes",
+  "name": "Rostchips",
+  "short_name": "Rostchips",
   "description": "Save recipes from social media videos",
   "start_url": "/",
   "display": "standalone",

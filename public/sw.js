@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rostcipes-v1';
+const CACHE_NAME = 'rostchips-v1';
 const STATIC_ASSETS = ['/', '/manifest.json'];
 
 self.addEventListener('install', (event) => {

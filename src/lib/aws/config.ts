@@ -12,5 +12,5 @@ export const cognitoConfig = {
 };
 
 export const dynamoConfig = {
-  tableName: process.env.DYNAMODB_TABLE_NAME || 'Rostcipes',
+  tableName: process.env.DYNAMODB_TABLE_NAME || 'Rostchips',
 };
