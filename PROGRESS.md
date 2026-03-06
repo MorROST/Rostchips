@@ -1,4 +1,4 @@
-# Rostcipes — Implementation Progress
+# Rostchips — Implementation Progress
 
 ## Status: All 5 Phases Complete (Build Passing)
 
@@ -104,7 +104,7 @@ rostchips/
 
 ## DynamoDB Data Model (Single-Table)
 
-**Table:** `Rostcipes`
+**Table:** `Rostchips_dynamoDB_table`
 **Keys:** PK (String), SK (String)
 **GSI1:** GSI1PK (String), GSI1SK (String) — for querying user's recipes sorted by date
 
@@ -190,7 +190,7 @@ rostchips/
 AWS_REGION=us-east-1
 AWS_ACCESS_KEY_ID=           # IAM user with DynamoDB access
 AWS_SECRET_ACCESS_KEY=       # IAM user secret
-DYNAMODB_TABLE_NAME=Rostcipes
+DYNAMODB_TABLE_NAME=Rostchips_dynamoDB_table
 NEXT_PUBLIC_COGNITO_USER_POOL_ID=   # From Cognito console
 NEXT_PUBLIC_COGNITO_CLIENT_ID=      # App client ID (no secret)
 ANTHROPIC_API_KEY=           # Claude API key
@@ -208,7 +208,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
    - App client: no client secret, ALLOW_USER_PASSWORD_AUTH
    - Email verification enabled
 
-2. **DynamoDB Table** `Rostcipes`
+2. **DynamoDB Table** `Rostchips_dynamoDB_table`
    - Partition key: `PK` (String)
    - Sort key: `SK` (String)
    - GSI1: partition key `GSI1PK` (String), sort key `GSI1SK` (String)
