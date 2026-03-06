@@ -1,0 +1,71 @@
+{
+  "common": {
+    "appName": "Rostcipes",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "back": "Back",
+    "confirm": "Confirm"
+  },
+  "nav": {
+    "myRecipes": "My Recipes",
+    "addRecipe": "Add Recipe",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Log In",
+    "register": "Sign Up",
+    "logout": "Log Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "displayName": "Display Name",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "verifyEmail": "Verify Your Email",
+    "verificationCode": "Verification Code",
+    "verify": "Verify",
+    "verifyMessage": "We sent a verification code to your email.",
+    "loginTitle": "Welcome Back",
+    "registerTitle": "Create Account",
+    "loginSubtitle": "Sign in to access your recipes",
+    "registerSubtitle": "Start saving recipes from videos"
+  },
+  "recipes": {
+    "title": "My Recipes",
+    "empty": "No recipes yet",
+    "emptySubtitle": "Paste a video link to save your first recipe!",
+    "addTitle": "Add Recipe",
+    "addDescription": "Paste a video link to extract a recipe",
+    "urlPlaceholder": "Paste TikTok, Instagram, YouTube, or Facebook URL",
+    "extract": "Extract Recipe",
+    "extracting": "Extracting recipe...",
+    "stepFetching": "Fetching video info...",
+    "stepTranscript": "Getting transcript...",
+    "stepExtracting": "AI is reading the recipe...",
+    "stepSaving": "Saving recipe...",
+    "stepDone": "Done!",
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "prepTime": "Prep",
+    "cookTime": "Cook",
+    "servings": "Servings",
+    "minutes": "min",
+    "deleteConfirm": "Are you sure you want to delete this recipe?",
+    "extractionFailed": "Could not extract recipe from this video. The video may not contain a recipe or the transcript may not be available.",
+    "invalidUrl": "Please enter a valid TikTok, Instagram, YouTube, or Facebook URL",
+    "viewRecipe": "View Recipe"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "profile": "Profile",
+    "about": "About",
+    "version": "Version",
+    "english": "English",
+    "hebrew": "עברית"
+  }
+}

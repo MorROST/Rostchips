@@ -1,0 +1,71 @@
+{
+  "common": {
+    "appName": "רוסטציפס",
+    "loading": "טוען...",
+    "error": "משהו השתבש",
+    "retry": "נסה שוב",
+    "cancel": "ביטול",
+    "save": "שמור",
+    "delete": "מחק",
+    "back": "חזרה",
+    "confirm": "אישור"
+  },
+  "nav": {
+    "myRecipes": "המתכונים שלי",
+    "addRecipe": "הוסף מתכון",
+    "settings": "הגדרות"
+  },
+  "auth": {
+    "login": "התחברות",
+    "register": "הרשמה",
+    "logout": "התנתקות",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "confirmPassword": "אישור סיסמה",
+    "displayName": "שם תצוגה",
+    "noAccount": "אין לך חשבון?",
+    "hasAccount": "כבר יש לך חשבון?",
+    "verifyEmail": "אמת את האימייל שלך",
+    "verificationCode": "קוד אימות",
+    "verify": "אמת",
+    "verifyMessage": "שלחנו קוד אימות לאימייל שלך.",
+    "loginTitle": "ברוך הבא",
+    "registerTitle": "צור חשבון",
+    "loginSubtitle": "התחבר כדי לגשת למתכונים שלך",
+    "registerSubtitle": "התחל לשמור מתכונים מסרטונים"
+  },
+  "recipes": {
+    "title": "המתכונים שלי",
+    "empty": "אין מתכונים עדיין",
+    "emptySubtitle": "הדבק קישור לסרטון כדי לשמור את המתכון הראשון שלך!",
+    "addTitle": "הוסף מתכון",
+    "addDescription": "הדבק קישור לסרטון כדי לחלץ מתכון",
+    "urlPlaceholder": "הדבק קישור מ-TikTok, Instagram, YouTube או Facebook",
+    "extract": "חלץ מתכון",
+    "extracting": "מחלץ מתכון...",
+    "stepFetching": "מביא פרטי סרטון...",
+    "stepTranscript": "מקבל תמלול...",
+    "stepExtracting": "AI קורא את המתכון...",
+    "stepSaving": "שומר מתכון...",
+    "stepDone": "סיום!",
+    "ingredients": "מצרכים",
+    "instructions": "הוראות הכנה",
+    "prepTime": "הכנה",
+    "cookTime": "בישול",
+    "servings": "מנות",
+    "minutes": "דק׳",
+    "deleteConfirm": "האם אתה בטוח שברצונך למחוק מתכון זה?",
+    "extractionFailed": "לא ניתן לחלץ מתכון מסרטון זה. ייתכן שהסרטון אינו מכיל מתכון או שהתמלול אינו זמין.",
+    "invalidUrl": "נא להזין קישור תקין מ-TikTok, Instagram, YouTube או Facebook",
+    "viewRecipe": "צפה במתכון"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "language": "שפה",
+    "profile": "פרופיל",
+    "about": "אודות",
+    "version": "גרסה",
+    "english": "English",
+    "hebrew": "עברית"
+  }
+}
