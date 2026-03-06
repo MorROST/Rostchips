@@ -22,7 +22,7 @@
 ## File Structure (Complete)
 
 ```
-rostcipes/
+rostchips/
 ├── public/
 │   ├── icons/
 │   │   ├── icon-192.png              # Orange placeholder PWA icon

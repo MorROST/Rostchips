@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DOMAIN="rostcipes.morrost.com"
+DOMAIN="rostchips.morrost.com"
 EMAIL="morrost@gmail.com"
 
 echo "=== SSL Bootstrap for $DOMAIN ==="

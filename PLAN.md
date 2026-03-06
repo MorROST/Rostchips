@@ -1,4 +1,4 @@
-# Rostcipes - Implementation Plan
+# Rostchips - Implementation Plan
 
 ## Context
 

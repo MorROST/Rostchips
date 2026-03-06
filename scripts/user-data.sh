@@ -32,7 +32,7 @@ mkdir -p /home/ubuntu/workspace
 
 cd /home/ubuntu/workspace
 
-git clone https://github.com/MorROST/Rostcipes.git
+git clone https://github.com/MorROST/Rostchips.git
 
 chown -R ubuntu:ubuntu /home/ubuntu/workspace
 
